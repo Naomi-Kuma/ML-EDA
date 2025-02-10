@@ -63,4 +63,4 @@ Based on insights, dating apps can tailor features based on **regional engagemen
 ## 6. Conclusion
 This analysis has provided a detailed look at how Gen-Z engages with dating apps, uncovering valuable insights into user preferences, behavior, and app usage trends. The findings point toward several areas for further investigation, such as predictive modeling and improving data representation. With these insights, dating app developers can refine their features and improve user experience.
 
-**##AUTHOR: NAOMI EDEM KUMAH**
+**AUTHOR: NAOMI EDEM KUMAH**
