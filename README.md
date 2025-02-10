@@ -22,3 +22,10 @@ We derived the following insights from the dataset:
 - **Gender Differences**: Preliminary data suggests varying usage patterns based on gender, with some features being more engaging for one gender over the other.
 
 
+## 3. Data Files and Documents
+The following files are included for further review and analysis:
+
+- **`feature_engineered_data.csv`**: The final dataset with all features processed for analysis.
+- **`final_summary.csv`**: A summary of key metrics derived from the dataset.
+- **`final_summary.ipynb`**: A Jupyter notebook with the detailed analysis and visualizations.
+
