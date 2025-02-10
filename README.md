@@ -52,3 +52,16 @@ data = pd.read_csv('final_summary.csv')
 # Display a summary of the data
 data.describe()
 
+
+
+When displayed on GitHub, it will format the code properly. Make sure you use the triple backticks at the beginning and end of the code block.
+
+---
+
+### **Visualizations**
+For visualizations, you can either:
+- **Embed images**: If you saved any plots from Jupyter, upload them to your GitHub repository and reference the image in the README.
+  Example:
+  ```markdown
+  ![Age vs Daily Usage](images/age_vs_daily_usage.png)
+
