@@ -29,3 +29,26 @@ The following files are included for further review and analysis:
 - **`final_summary.csv`**: A summary of key metrics derived from the dataset.
 - **`final_summary.ipynb`**: A Jupyter notebook with the detailed analysis and visualizations.
 
+
+## 4. Methodology
+
+### 4.1 Data Collection
+The data was gathered through a combination of user surveys and in-app tracking of Gen-Z users' behavior. Data points collected include:
+- User **age**, **gender**, and **location**
+- Frequency of **app usage**
+- **Time spent** on the app daily
+- Features interacted with, and the **number of apps** used simultaneously
+
+### 4.2 Data Analysis
+Exploratory Data Analysis (EDA) was carried out to uncover trends and patterns in the dataset. Here’s an example of how we explored the data.
+
+
+```python
+import pandas as pd
+
+# Load data
+data = pd.read_csv('final_summary.csv')
+
+# Display a summary of the data
+data.describe()
+
