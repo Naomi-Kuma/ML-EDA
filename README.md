@@ -1,34 +1,31 @@
-# Gen Z Dating App Data
 
-## Overview
-This dataset contains information on Gen Z dating app users. It includes demographic details, app preferences, and usage patterns.
+# GenZ Dating App Dataset - Documentation
 
-## Data Cleaning Steps
-- Removed duplicate rows.
-- Standardized categorical values (e.g., fixed case inconsistencies).
-- Handled missing values (filled categorical with mode, numerical with mean).
-- Detected and removed outliers using the IQR method.
+## 📌 Dataset Overview
+This dataset contains information about GenZ users and their behavior on dating apps.
 
-## Columns Description
-| Column Name | Data Type | Description |
-|-------------|-----------|-------------|
-| user_id | int | Unique identifier for each user |
-| gender | object | Gender of the user (male, female, other) |
-| age | int | Age of the user |
-| location | object | User city or region |
-| dating_app_used | object | Name of the dating app(s) used |
-| frequency | int | How often the user engages with dating apps |
-| relationship_status | object | User current relationship status |
+## 📂 Files Included
+- cleaned_data_v1.csv - The cleaned dataset
+- data_dictionary.csv - Column descriptions
+- dataset_documentation.ipynb - This notebook
 
-## Usage
-This dataset can be used for:
-- Analyzing dating app preferences among Gen Z.
-- Identifying trends in dating behavior.
-- Predicting engagement with dating apps.
-
-## GitHub Versioning
-- Initial dataset uploaded.
-- Cleaned dataset committed as `Cleaned_GenZ_DatingApp_Data.csv`.
-
-## Contributors
-- Naomi
+## 📊 Columns & Descriptions
+| Column Name | Description |
+|-------------|-------------|
+            Column Name                                 Description
+                User_ID             Unique identifier for each user
+                    Age                         User's age in years
+                 Gender                      User's gender identity
+               Location      City or region where the user is based
+              Education           User's highest level of education
+             Occupation                   Current employment status
+            Primary_App                        Main dating app used
+         Secondary_Apps             Other dating apps the user uses
+        Usage_Frequency How often the user engages with dating apps
+       Daily_Usage_Time             Time spent daily on dating apps
+       Reason_for_Using         User's reason for using dating apps
+           Satisfaction    User's satisfaction level (scale of 1-5)
+             Challenges        Issues faced while using dating apps
+       Desired_Features          Features users want in dating apps
+Preferred_Communication             Preferred mode of communication
+     Partner_Priorities      Key traits users look for in a partner
