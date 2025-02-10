@@ -39,29 +39,27 @@ The data was gathered through a combination of user surveys and in-app tracking 
 - **Time spent** on the app daily
 - Features interacted with, and the **number of apps** used simultaneously
 
-### 4.2 Data Analysis
-Exploratory Data Analysis (EDA) was carried out to uncover trends and patterns in the dataset. Here’s an example of how we explored the data.
+
+### 4.2 Feature Engineering
+We applied feature engineering to prepare the data for predictive modeling. Some of the key features included:
+- Time-based usage patterns (e.g., peak activity hours)
+- Multi-app usage behavior
+- Geographical region (Metro vs. Rural)
 
 
-```python
-import pandas as pd
-
-# Load data
-data = pd.read_csv('final_summary.csv')
-
-# Display a summary of the data
-data.describe()
-
-
-
-When displayed on GitHub, it will format the code properly. Make sure you use the triple backticks at the beginning and end of the code block.
 
 ---
 
-### **Visualizations**
-For visualizations, you can either:
-- **Embed images**: If you saved any plots from Jupyter, upload them to your GitHub repository and reference the image in the README.
-  Example:
-  ```markdown
-  ![Age vs Daily Usage](images/age_vs_daily_usage.png)
+### **Future Directions and Conclusion**
+```markdown
+## 5. Future Directions and Recommendations
+
+### 5.1 Enhanced Data Collection
+There are gaps in data collection, particularly with underrepresented demographics. Expanding the sample size and ensuring diversity across **geographical regions** and **age groups** will provide more accurate and inclusive results.
+
+### 5.2 User Experience Recommendations
+Based on insights, dating apps can tailor features based on **regional engagement** and **multi-app usage**. For example, **metro users** might prefer more interactive or event-based features, while **rural users** might benefit from simplified experiences.
+
+## 6. Conclusion
+This analysis has provided a detailed look at how Gen-Z engages with dating apps, uncovering valuable insights into user preferences, behavior, and app usage trends. The findings point toward several areas for further investigation, such as predictive modeling and improving data representation. With these insights, dating app developers can refine their features and improve user experience.
 
